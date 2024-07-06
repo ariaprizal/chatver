@@ -67,7 +67,7 @@ export default function Articles({ id, articleList }) {
                 <Breadcrumb data={breadcrumbdata} />
             </div>
             <p className="text-4xl text-gray-700 text-left">Article List</p>
-            <div className="flex gap-x-12 flex-col justify-start items-start gap-y-8 shadow-CS1 p-6 text-gray-700 rounded-xl mb-24">
+            <div className="flex gap-x-12 flex-col justify-start items-start gap-y-8 p-6 text-gray-700 rounded-xl mb-24">
                 {articles?.map((item, index) => (
                     item?.public_url !== undefined && item.public_url !== null ? (
                         <p
